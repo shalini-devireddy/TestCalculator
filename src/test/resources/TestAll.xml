@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Calculator-tests" verbose="1" >
+    <test name="Addition" >
+        <classes>
+            <class name="com.tests.TestAddition" />
+            <class name="com.tests.TestMultiplication" />
+        </classes>
+    </test>
+</suite>
